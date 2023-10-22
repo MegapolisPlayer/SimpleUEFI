@@ -31,7 +31,6 @@ void BootCheckError(EFI_HANDLE* inImageHandle, EFI_SYSTEM_TABLE* inSystemTable, 
 	
 }
 
-//Main entry point for Ustka
 EFI_STATUS EFIAPI EfiMain (EFI_HANDLE ImageHandle, EFI_SYSTEM_TABLE *SystemTable) {
 	UINTN Index = 0;
 	UINTN Status = EFI_NOT_READY;
